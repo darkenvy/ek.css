@@ -1,0 +1,17 @@
+/* ======= ek.css Primary is for smart configuration ====== */
+
+/* Responsive Image sizing */
+/* Simply add max-height to img-smart */
+.img-smart {
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.img-smart img {
+  width: 100%;
+  height: auto;
+}
+
+.circle {
+  border-radius: 50%;
+}
