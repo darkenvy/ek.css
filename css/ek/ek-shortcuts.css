@@ -57,3 +57,8 @@
 .margin-0-auto {
   margin: 0 auto;
 }
+
+/* Shapes */
+.circle {
+  border-radius: 50%;
+}
