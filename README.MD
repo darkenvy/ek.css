@@ -3,7 +3,7 @@ Ek – CSS Library
 
 *ek.css* is a CSS Library for common design problems. Quickly and easily design a website with minimal to no CSS with ek. Simply give an element a class and ek will take care of the rest.
 
-Styling Patters Done Easy
+Styling Patterns Done Easy
 
 ----------
 
