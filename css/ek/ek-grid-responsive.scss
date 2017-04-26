@@ -1,0 +1,47 @@
+@import '_vars';
+
+@media (max-width: $mobile) {
+  .col-4,
+  .col-5 {width: $c2;}
+  .col-6,
+  .col-7 {width: $c3;}
+  .col-8 {width: $c2;}
+  .col-9 {width: $c3;}
+  .col-10,
+  .col-11,
+  .col-12 {width: $c4;}
+  
+  .offset-4,
+  .offset-5 {margin-left: $c2;}
+  .offset-6,
+  .offset-7 {margin-left: $c3;}
+  .offset-8 {margin-left: $c2;}
+  .offset-9 {margin-left: $c3;}
+  .offset-10,
+  .offset-11,
+  .offset-12 {margin-left: $c4;}
+}
+
+@media (min-width: $mobile) and (max-width: $desktop) {
+  .col-3,
+  .col-4 {width: $c2;}
+  .col-5,
+  .col-6 {width: $c3;}
+  .col-7,
+  .col-8 {width: $c4;}
+  .col-9 {width: $c3;}
+  .col-10 {width: $c5;}
+  .col-11,
+  .col-12 {width: $c6;}
+  
+  .offset-3,
+  .offset-4 {margin-left: $c2;}
+  .offset-5,
+  .offset-6 {margin-left: $c3;}
+  .offset-7,
+  .offset-8 {margin-left: $c4;}
+  .offset-9 {margin-left: $c3;}
+  .offset-10 {margin-left: $c5;}
+  .offset-11,
+  .offset-12 {margin-left: $c6;}
+}

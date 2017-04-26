@@ -5,27 +5,25 @@ input {
   margin: 0.5em 0.1em;
   padding: 0.25em 1em; }
 
-button,
 .button,
+button,
 input[type="button"],
 input[type="submit"] {
-  background-color: #09f;
+  background-color: #06c;
   border: none;
   padding: 1em 2em;
   margin: 0.5em;
   color: white;
   border-radius: 0.25em; }
-
-button:active,
-.button:active,
-input[type="button"]:active,
-input[type="submit"]:active {
-  background-color: #06c;
-  color: #ccc; }
+  .button:active,
+  button:active,
+  input[type="button"]:active,
+  input[type="submit"]:active {
+    background-color: #09f;
+    color: #ccc; }
 
 a {
   text-decoration: none;
-  color: #455; }
-
-a:hover {
-  color: #49a; }
+  color: #445; }
+  a:hover {
+    color: #49a; }

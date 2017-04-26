@@ -1,0 +1,41 @@
+@import '_vars';
+
+[class^="col-"] {
+  display: inline-block;
+  float:left;
+  box-sizing: border-box;
+}
+
+.row {width: 100%;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-1 {width: $c1;}
+.col-2 {width: $c2;}
+.col-3 {width: $c3;}
+.col-4 {width: $c4;}
+.col-5 {width: $c5;}
+.col-6 {width: $c6;}
+.col-7 {width: $c7;}
+.col-8 {width: $c8;}
+.col-9 {width: $c9;}
+.col-10 {width: $c10;}
+.col-11 {width: $c11;}
+.col-12 {width: $c12;}
+
+.offset-1 {margin-left: $c1;}
+.offset-2 {margin-left: $c2;}
+.offset-3 {margin-left: $c3;}
+.offset-4 {margin-left: $c4;}
+.offset-5 {margin-left: $c5;}
+.offset-6 {margin-left: $c6;}
+.offset-7 {margin-left: $c7;}
+.offset-8 {margin-left: $c8;}
+.offset-9 {margin-left: $c9;}
+.offset-10 {margin-left: $c10;}
+.offset-11 {margin-left: $c11;}
+.offset-12 {margin-left: $c12;}

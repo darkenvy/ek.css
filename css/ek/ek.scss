@@ -7,10 +7,10 @@ body {font-weight: 300;}
 .img {
   width: 100%;
   overflow-y: hidden;
-}
-.img img {
-  width: 100%;
-  height: auto;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* Displays */
@@ -24,7 +24,6 @@ body {font-weight: 300;}
 
 /* Tools */
 .flex {display: flex;}
-.flexed {margin: 10px 10px;}
 .flex-auto {
   display: flex;
   flex-wrap: wrap;
