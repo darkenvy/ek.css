@@ -39,7 +39,7 @@
 
 /* Development */
 .place-img {
-  background-image: url('http://lorempixel.com/1024/768')
+  background-image: url('http://lorempixel.com/1024/768');
   width: 800px;
   height: 600px;
 }
