@@ -3,11 +3,11 @@ var gulp      = require('gulp'),
     rename    = require('gulp-rename'),
     uglifycss = require('gulp-uglifycss'),
     sass      = require('gulp-sass'),
-    gzip = require('gulp-gzip'),
-    size = require('gulp-filesize');
+    gzip      = require('gulp-gzip'),
+    size      = require('gulp-filesize');
 
-var files = 'css/ek/**/*.scss',  
-    dest = 'dist/';
+var files     = 'css/ek/**/*.scss',
+    dest      = 'dist/';
 
 gulp.task('sass', function (cb) {
   gulp.src(files)
